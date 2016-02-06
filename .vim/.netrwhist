@@ -1,4 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/Users/timhyon/thor/client'
-let g:netrw_dirhist_2='/Users/timhyon/thor/client/scripts'
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/Tim/dailycal/wordpress/main-theme/css'
+let g:netrw_dirhist_2='/Users/Tim/dailycal/wordpress/main-theme/functions'
+let g:netrw_dirhist_3='/Users/Tim/hackgt2015'
+let g:netrw_dirhist_4='/Users/Tim/wildfiremod'
+let g:netrw_dirhist_5='/Users/Tim/ispl/tim_code_final'
+let g:netrw_dirhist_6='/Users/Tim'
+let g:netrw_dirhist_7='/Users/Tim/wildfiremod'
+let g:netrw_dirhist_8='/Users/Tim/work/wildfiremod'
+let g:netrw_dirhist_9='/Users/Tim/work/dailycal/wordpress/main-theme/functions'
