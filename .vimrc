@@ -1,23 +1,22 @@
 set nocp
-set cc=80
+"set cc=80
+set sh=bash
 execute pathogen#infect()
+set paste
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 "INDENTING and TABBING
 set smartindent
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 set hlsearch
 
 set t_Co=256
 syntax enable
 syntax on
-filetype plugin indent on
+"filetype plugin indent on
 set encoding=utf-8
-
-inoremap ( ()<Esc>:let leavechar=")"<CR>i
-inoremap [ []<Esc>:let leavechar="]"<CR>i
-inoremap { {<CR><BS>}<Esc>ko
 
 " NERD TREE TOGGLE
 map <C-n> :NERDTreeToggle<CR>
@@ -42,4 +41,4 @@ nnoremap <C-j> <C-W>+
 nnoremap <C-l> <C-W>><C-W>>
 nnoremap <C-h> <C-W><<C-W><
 
-colorscheme peachpuff
+colorscheme gotham
